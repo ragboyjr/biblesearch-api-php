@@ -1,0 +1,21 @@
+{
+    "name": "biblesearch/biblesearch-api",
+    "description": "Bible Search PHP Api Client",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "krak/array": "^0.4.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RJ Garcia",
+            "email": "rj@bighead.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BibleSearch\\Api\\": "src"
+        }
+    }
+}
